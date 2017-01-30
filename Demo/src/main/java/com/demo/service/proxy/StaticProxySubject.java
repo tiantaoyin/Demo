@@ -19,7 +19,7 @@ public class StaticProxySubject implements Subject {
     }
 
     /**
-     * 额外功能
+     * 额外功能:添加日志
      * @param taskName
      */
     public void dealTask(String taskName) {

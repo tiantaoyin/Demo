@@ -14,7 +14,7 @@ public class PropertiesUtils {
     static {
         try {
             log.info("load properties... ");
-            prop.load(Thread.currentThread().getContextClassLoader().getResourceAsStream("factory.properties"));
+            prop.load(Thread.currentThread().getContextClassLoader().getResourceAsStream("global.properties"));
             log.info("load properties success.");
         } catch (IOException e) {
             log.error("load properties failed.", e);
