@@ -14,6 +14,10 @@ public class StaticProxySubject implements Subject {
      */
     private Subject delegate;
 
+    public StaticProxySubject() {
+        this.delegate = delegate;
+    }
+
     public StaticProxySubject(Subject delegate) {
         this.delegate = delegate;
     }

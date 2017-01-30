@@ -13,8 +13,7 @@ public class FindClassUtils {
     public static Object findClassByPath(String path) throws Exception {
 
         try {
-            System.out.println(PropertiesUtils.getProperty(path));
-            System.out.println(Class.forName(PropertiesUtils.getProperty(path)));
+            System.out.println("--------------"+Class.forName(PropertiesUtils.getProperty(path)).newInstance());
             return Class.forName(PropertiesUtils.getProperty(path)).newInstance();
         } catch (Exception e) {
             log.error("An Error happend when geting object, The Error Message is ", e);

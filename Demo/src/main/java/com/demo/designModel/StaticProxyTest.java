@@ -13,6 +13,7 @@ public class StaticProxyTest {
         try {
             log.info("getting object ...");
             StaticProxySubject proxySubject = (StaticProxySubject) FindClassUtils.findClassByPath("proxy");
+            System.out.println("----------------" + proxySubject);
             log.info("dealing task ...");
             long beginTime = System.currentTimeMillis();
             proxySubject.dealTask("DBQueryTask");
