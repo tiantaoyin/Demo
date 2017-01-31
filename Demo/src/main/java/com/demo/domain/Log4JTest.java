@@ -2,8 +2,9 @@ package com.demo.domain;
 
 import org.apache.log4j.Logger;
 
+
 /**
- * Created by *** on 2015-12-14.
+ * Created by ankang on 2017-01-30.
  */
 public class Log4JTest {
     private static final Logger LOGGER = Logger.getLogger(Log4JTest.class);

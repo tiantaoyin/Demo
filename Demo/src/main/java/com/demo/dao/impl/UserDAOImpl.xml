@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.baizhi.dao.UserDAO">
+	<resultMap type="com.baizhi.entity.User" id="resultMapUser">
+		<id property="userId" column="user_id"/>
+		<result property="userMobile" column="user_mobile"/>
+		<result property="userPassword" column="user_password"/>
+		<result property="userRealname" column="user_realname"/>
+		<result property="userLawname" column="user_lawname"/>
+		<result property="userSex" column="user_sex"/>
+		<result property="userAddress" column="user_address"/>
+		<result property="userAutograph" column="user_autograph"/>
+		<result property="userImg" column="user_img"/>
+		<result property="userSalt" column="user_salt"/>
+		<result property="userStatus" column="user_status"/>
+		<result property="teachId" column="teach_id"/>
+		<association property="teacher" javaType="Teacher">
+			<id property="teacherId" column="teacher_id"/>
+			<result property="teacherLawname" column="teacher_lawname"/>
+			<result property="teacherStatus" column="teacher_status"/>
+			<result property="teacherImg" column="teacher_img"/>
+			<result property="teacherIntro" column="teacher_intro"/>
+		</association>
+	</resultMap>
+	
+	<!-- 查询一个用户 -->
+	<select id="selectUser" resultMap="resultMapUser">
+		select * from cmfz_user where user_id = #{userId}
+	</select>
+	
+	<!-- 查询用户人数 -->
+	<select id="selectUserAmount" resultType="Integer">
+		select count(1) from cmfz_user 
+	</select>
+	
+	<!-- 插入 -->
+	<insert id="insertUser" keyProperty="userId" useGeneratedKeys="true">
+		insert into cmfz_user 
+		(user_mobile, user_password, user_realname, user_lawname, user_sex, user_address, user_autograph, user_img, user_salt, user_status, teach_id) 
+		values (#{userMobile}, #{userPassword}, #{userRealname}, #{userLawname}, #{userSex}, #{userAddress}, #{userAutograph}, #{userImg},
+		#{userSalt}, #{userStatus}, #{teachId})
+	</insert>
+	
+	<!-- 修改 -->
+	<update id="updateUser">
+		update cmfz_user set user_status = #{userStatus} where user_id = #{userId}
+	</update>
+	
+	<!-- 删除 -->
+	<delete id="deleteUser">
+		delete from cmfz_user where user_id = #{userId}
+	</delete>
+	
+</mapper>

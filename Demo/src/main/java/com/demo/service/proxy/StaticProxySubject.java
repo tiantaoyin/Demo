@@ -1,6 +1,7 @@
 package com.demo.service.proxy;
 
 import com.demo.service.Subject;
+import com.demo.service.impl.RealSubject;
 import lombok.extern.slf4j.Slf4j;
 
 /**
@@ -12,26 +13,21 @@ public class StaticProxySubject implements Subject {
     /**
      * 代理类持有一个委托类的对象引用  
      */
-    private Subject delegate;
+    private RealSubject delegate;
 
-    public StaticProxySubject() {
-        this.delegate = delegate;
-    }
-
-    public StaticProxySubject(Subject delegate) {
+    public StaticProxySubject(RealSubject delegate) {
         this.delegate = delegate;
     }
 
     /**
      * 额外功能:添加日志
+     *
      * @param taskName
      */
     public void dealTask(String taskName) {
         log.info("invoke method ...");
-        long beginTime = System.currentTimeMillis();
+        System.out.println(delegate);
         delegate.dealTask(taskName);
         log.info("invoke method over");
-        long endTime = System.currentTimeMillis();
-        log.info("This Task cast " + (endTime - beginTime) + "Millis");
     }
 }

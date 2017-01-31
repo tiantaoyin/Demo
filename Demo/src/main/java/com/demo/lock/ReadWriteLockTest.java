@@ -2,7 +2,7 @@ package com.demo.lock;
 
 import com.demo.common.Constant;
 import com.demo.domain.MyAccount;
-import com.demo.domain.User;
+import com.demo.domain.UserAccount;
 import com.demo.util.ExecutorUtils;
 
 import java.util.concurrent.ExecutorService;
@@ -34,11 +34,11 @@ public class ReadWriteLockTest {
          */
         ReadWriteLock lock = new ReentrantReadWriteLock(false);
         //创建一些并发访问用户，一个信用卡，存的存，取的取
-        User u1 = new User("张三", myAccount, -4000, lock, false);
-        User u2 = new User("张三媳妇", myAccount, 2000, lock, false);
-        User u3 = new User("张三儿子", myAccount, -1000, lock, false);
-        User u4 = new User("张三", myAccount, +3000, lock, false);
-        User u5 = new User("张三媳妇", myAccount, 0, lock, true);
+        UserAccount u1 = new UserAccount("张三", myAccount, -4000, lock, false);
+        UserAccount u2 = new UserAccount("张三媳妇", myAccount, 2000, lock, false);
+        UserAccount u3 = new UserAccount("张三儿子", myAccount, -1000, lock, false);
+        UserAccount u4 = new UserAccount("张三", myAccount, +3000, lock, false);
+        UserAccount u5 = new UserAccount("张三媳妇", myAccount, 0, lock, true);
         //在线程池中执行各个用户的操作
         ExecutorService executorService = ExecutorUtils.getExecutorService();
         executorService.execute(u1);
