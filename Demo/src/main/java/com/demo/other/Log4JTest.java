@@ -1,4 +1,4 @@
-package com.demo.domain;
+package com.demo.other;
 
 import org.apache.log4j.Logger;
 

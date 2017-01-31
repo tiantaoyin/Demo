@@ -7,7 +7,7 @@ import java.util.concurrent.locks.ReentrantLock;
 /**
  * Created by ankang on 2017-01-11.
  */
-public class LockDemo {
+public class LockTest {
     private int count = 0;
     /**
      * ReentrantLock(重入锁)是一个可重入的互斥锁，调用lock()的线程可以获取锁,调用unlock()的线程可以释放锁。
@@ -50,7 +50,7 @@ public class LockDemo {
     public static void main(String[] args) {
         ExecutorUtils.getExecutorService().submit(new Runnable() {
             public void run() {
-                int sum = new LockDemo().sum();
+                int sum = new LockTest().sum();
                 System.out.println(sum);
             }
         });

@@ -12,6 +12,9 @@ import javax.servlet.ServletResponse;
 
 import org.springframework.web.filter.GenericFilterBean;
 
+/**
+ * 责任链模式核心类
+ */
 public class FilterChainProxy extends GenericFilterBean {
 	//private Map<RequestMatcher, List<Filter>> filterChainMap;
 	public void doFilter(ServletRequest request, ServletResponse response,
@@ -34,7 +37,8 @@ public class FilterChainProxy extends GenericFilterBean {
 		filters.add(new LogoutFilter());
 		return filters;
 	}
-	
+
+	//静态成员类	VirtualFilterChain
 	public static class VirtualFilterChain implements FilterChain{
 		private final FilterInvocation fi;
         private final List<Filter> additionalFilters;

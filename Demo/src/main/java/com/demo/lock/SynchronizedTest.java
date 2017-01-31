@@ -5,7 +5,7 @@ import com.demo.util.ExecutorUtils;
 /**
  * Created by ankang on 2017-01-11.
  */
-public class SynchronizedDemo {
+public class SynchronizedTest {
     private int count = 0;
 
     public int sum() {
@@ -19,7 +19,7 @@ public class SynchronizedDemo {
     public static void main(String[] args) {
         ExecutorUtils.getExecutorService().execute(new Runnable() {
             public void run() {
-                int sum = new SynchronizedDemo().sum();
+                int sum = new SynchronizedTest().sum();
                 System.out.println(sum);
             }
         });

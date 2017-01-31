@@ -5,5 +5,6 @@ package com.demo.common;
  */
 public class Constant {
     public static int THREAD_POOL_SIZE = 10;    //线程池大小
-    public static String ACCOUNTNO = "95599200901215522";
+    public static int TASKSIZE = 10;    //任务数量
+    public static String ACCOUNTNO = "95599200901215522";   //测试账号
 }
