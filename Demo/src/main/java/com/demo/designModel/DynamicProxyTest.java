@@ -3,9 +3,9 @@ package com.demo.designModel;
 import com.demo.service.UserService;
 import com.demo.service.impl.UserServiceImpl;
 import lombok.extern.slf4j.Slf4j;
-import org.junit.Test;
 import net.sf.cglib.proxy.Callback;
 import net.sf.cglib.proxy.Enhancer;
+import org.junit.Test;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
@@ -62,7 +62,7 @@ public class DynamicProxyTest {
         };
 
         //设置额外功能    setCallback()
-        enhancer.setCallback(invocationHandler);
+        enhancer.setCallback((Callback) invocationHandler);
 
         //创建代理  create()
         UserService us = (UserService) enhancer.create();

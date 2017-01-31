@@ -11,4 +11,8 @@ public class FilterInvocation {
     private FilterChain chain;
     private ServletRequest request;
     private ServletResponse response;
+
+    public FilterInvocation(FilterChain fc, ServletRequest request, ServletResponse response) {
+
+    }
 }

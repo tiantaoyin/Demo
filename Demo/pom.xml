@@ -239,6 +239,13 @@
       <artifactId>spring-oxm</artifactId>
       <version>4.3.6.RELEASE</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/cglib/cglib -->
+    <dependency>
+      <groupId>cglib</groupId>
+      <artifactId>cglib</artifactId>
+      <version>3.2.4</version>
+    </dependency>
+
   </dependencies>
   <build>
     <finalName>Demo</finalName>
