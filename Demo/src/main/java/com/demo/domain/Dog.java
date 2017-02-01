@@ -1,8 +1,11 @@
 package com.demo.domain;
 
+import lombok.extern.slf4j.Slf4j;
+
 /**
  * Created by ankang on 2017-01-31.
  */
+@Slf4j
 public class Dog extends Anmial {
     private static String name = "tom";
     private String furColor;

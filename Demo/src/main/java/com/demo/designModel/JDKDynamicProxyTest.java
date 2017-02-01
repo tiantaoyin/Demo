@@ -9,6 +9,8 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
 /**
+ * Spring动态代理:JDK动态代理
+ * 注:InvocationHandler--->java.lang.reflect.InvocationHandler
  * Created by ankang on 2017-01-30.
  */
 @Slf4j
