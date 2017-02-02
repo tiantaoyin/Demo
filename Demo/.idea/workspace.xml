@@ -1,85 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb0ff14e-d3fa-4873-adab-e66a0aeaeac4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_24.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__cglib_cglib_3_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__com_alibaba_druid_1_0_27.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__com_alibaba_fastjson_1_2_24.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__com_google_inject_extensions_guice_multibindings_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__com_google_inject_guice_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__com_hazelcast_hazelcast_3_7_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__commons_pool_commons_pool_1_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__mysql_mysql_connector_java_6_0_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__net_sf_ehcache_ehcache_2_10_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__net_sf_ehcache_ehcache_core_2_6_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_apache_ant_ant_1_9_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_9_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_apache_shiro_shiro_all_1_4_0_RC2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_apache_shiro_shiro_aspectj_1_4_0_RC2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_apache_shiro_shiro_cache_1_4_0_RC2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_apache_shiro_shiro_config_core_1_4_0_RC2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_apache_shiro_shiro_config_ogdl_1_4_0_RC2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_4_0_RC2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_cipher_1_4_0_RC2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_core_1_4_0_RC2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_hash_1_4_0_RC2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_apache_shiro_shiro_ehcache_1_4_0_RC2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_apache_shiro_shiro_event_1_4_0_RC2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_apache_shiro_shiro_guice_1_4_0_RC2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_apache_shiro_shiro_hazelcast_1_4_0_RC2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_apache_shiro_shiro_lang_1_4_0_RC2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_apache_shiro_shiro_quartz_1_4_0_RC2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_4_0_RC2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_4_0_RC2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_0_0_M3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_0_0_M3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_mybatis_mybatis_3_4_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_opensymphony_quartz_quartz_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_opentest4j_opentest4j_1_0_0_M1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_ow2_asm_asm_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_projectlombok_lombok_1_16_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_22.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_22.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_springframework_spring_aop_4_3_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_springframework_spring_beans_4_3_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_springframework_spring_context_4_3_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_springframework_spring_core_4_3_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_springframework_spring_expression_4_3_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_springframework_spring_orm_4_3_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_springframework_spring_oxm_4_3_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_springframework_spring_tx_4_3_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_springframework_spring_web_4_3_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_6_RELEASE.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../MySpringSecurity/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Demo_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Demo_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo.iml" afterPath="$PROJECT_DIR$/Demo.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MySpringSecurity/.idea/artifacts/MySpringSecurity_war_exploded.xml" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/artifacts/MySpringSecurity_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MySpringSecurity/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../MySpringSecurity/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MySpringSecurity/MySpringSecurity.iml" afterPath="$PROJECT_DIR$/../MySpringSecurity/MySpringSecurity.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MySpringSecurity/pom.xml" afterPath="$PROJECT_DIR$/../MySpringSecurity/pom.xml" />
-    </list>
+    <list default="true" id="eb0ff14e-d3fa-4873-adab-e66a0aeaeac4" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -1188,7 +1110,7 @@
       <workItem from="1485917841401" duration="236000" />
       <workItem from="1485918097152" duration="1007000" />
       <workItem from="1485921165450" duration="1681000" />
-      <workItem from="1486006950291" duration="77000" />
+      <workItem from="1486006950291" duration="142000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1485773075289</created>
@@ -1240,7 +1162,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58809000" />
+    <option name="totallyTimeSpent" value="58874000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
