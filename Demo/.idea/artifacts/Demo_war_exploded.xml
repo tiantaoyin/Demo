@@ -73,6 +73,7 @@
           <element id="library" level="project" name="Maven: org.ow2.asm:asm:5.1" />
           <element id="library" level="project" name="Maven: org.apache.ant:ant:1.9.6" />
           <element id="library" level="project" name="Maven: org.apache.ant:ant-launcher:1.9.6" />
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.24" />
         </element>
       </element>
       <element id="directory" name="META-INF">
