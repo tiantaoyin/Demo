@@ -15,7 +15,7 @@ public class  ExtendsThreadTest extends Thread {
     }
 
     public static void main(String[] args) {
-         ExtendsThreadTest  extendsThreadTest = new  ExtendsThreadTest();
+        ExtendsThreadTest  extendsThreadTest = new  ExtendsThreadTest();
         extendsThreadTest.start();
     }
 }

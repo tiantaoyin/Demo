@@ -51,7 +51,7 @@ public class CglibDynamicProxyTest {
         try {
             log.info("getting target object ...");
             UserService us = (UserService) AopTargetUtils.getTarget(userService);
-            log.info("the target object is {},invoke method which name is query", us);
+            log.info("the target object is {}, invoke method which name is query", us);
             us.query();
         } catch (Exception e) {
             log.error("An error occurred when getting target object, the error message is " + e);

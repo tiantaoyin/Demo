@@ -8,7 +8,7 @@ public class HannoTest {
      * 方法的递归调用--汉诺塔
      */
     public static void main(String[] args) {
-        trans(5, 'A', 'B', 'C');
+        trans(2, 'A', 'B', 'C');
     }
 
     /**
@@ -24,7 +24,7 @@ public class HannoTest {
             System.out.println(from + "---->" + to);
         } else {
             //把i-1个碟子从from柱移动到temp柱,借助to柱
-            trans(i - i, from, temp, to);
+            trans(i - 1, from, temp, to);
             //把1个碟子从from柱移动到to柱
             System.out.println(from + "---->" + to);
             //把i-1个碟子从temp柱移动到to柱,借助from柱

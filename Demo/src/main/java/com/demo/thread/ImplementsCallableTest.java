@@ -59,6 +59,6 @@ public class ImplementsCallableTest {
         }
 
         Date end = new Date();
-        System.out.println("----程序结束运行----，程序运行时间【" + (begin.getTime() - end.getTime()) + "毫秒】");
+        System.out.println("----程序结束运行----，程序运行时间【" + (end.getTime() - begin.getTime()) + "毫秒】");
     }
 }
