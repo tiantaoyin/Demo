@@ -1,5 +1,6 @@
 package com.demo.designModel.ProxyModel.DynamicProxy;
 
+import com.demo.service.Subject;
 import com.demo.service.impl.RealSubject;
 
 import java.lang.reflect.InvocationHandler;
@@ -12,7 +13,7 @@ import java.lang.reflect.Proxy;
  */
 public class JDKProxyTest {
     public static void main(String[] args) {
-        final RealSubject realSubject = new RealSubject();
+        final Subject subject = new RealSubject();
 
         /**
          * 调用JDK底层Proxy方法
@@ -28,12 +29,12 @@ public class JDKProxyTest {
              * */
             public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
                 System.out.println("--------------- JDKProxy ------------------");
-                return method.invoke(realSubject, args);
+                return method.invoke(subject, args);
             }
         };
 
-        RealSubject rs = (RealSubject) Proxy.newProxyInstance(RealSubject.class.getClassLoader(), realSubject.getClass().getInterfaces(), invocationHandler);
+        Subject s = (Subject) Proxy.newProxyInstance(RealSubject.class.getClassLoader(), subject.getClass().getInterfaces(), invocationHandler);
 
-        rs.dealTask("JDKProxyTest");
+        s.dealTask("JDKProxyTest");
     }
 }
