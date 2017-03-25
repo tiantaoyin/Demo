@@ -1,4 +1,4 @@
-package com.demo.designModel;
+package com.demo.designModel.FactoryModel;
 
 import java.io.FileInputStream;
 import java.io.InputStream;

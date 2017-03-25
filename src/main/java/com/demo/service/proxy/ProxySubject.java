@@ -1,6 +1,7 @@
 package com.demo.service.proxy;
 
 import com.demo.service.Subject;
+import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 
 /**
@@ -8,16 +9,17 @@ import lombok.extern.slf4j.Slf4j;
  * Created by ankang on 2017-01-12.
  */
 @Slf4j
-public class StaticProxySubject implements Subject {
+public class ProxySubject implements Subject {
     /**
      * 代理类持有一个委托类的对象引用  
      */
     private Subject delegate;
 
-    public StaticProxySubject(Subject delegate) {
+    public ProxySubject(Subject delegate) {
         this.delegate = delegate;
     }
-
+    public ProxySubject() {
+    }
     /**
      * 额外功能
      * @param taskName

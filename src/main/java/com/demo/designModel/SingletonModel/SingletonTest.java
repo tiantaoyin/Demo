@@ -1,4 +1,4 @@
-package com.demo.designModel;
+package com.demo.designModel.SingletonModel;
 
 /**
  * 单例模式:只能创建一个对象
