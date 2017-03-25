@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb0ff14e-d3fa-4873-adab-e66a0aeaeac4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/demo/other/FileTest$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/demo/other/FileTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/demo/other/InterfaceCallback.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/demo/other/Prime.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/demo/other/PrimeTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/demo/other/RecursionTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/demo/other/SortTest.class" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/demo/other/FileTest.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/demo/other/InterfaceCallback.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/demo/other/RecursionTest.java" />
@@ -78,8 +85,8 @@
       <file leaf-file-name="FileTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/other/FileTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="949">
+              <caret line="43" column="16" lean-forward="false" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#517#1117#0" expanded="true" />
@@ -879,12 +886,12 @@
       <workItem from="1484213584318" duration="1768000" />
       <workItem from="1485423076530" duration="8000" />
       <workItem from="1485423284195" duration="9361000" />
-      <workItem from="1490434216110" duration="15421000" />
+      <workItem from="1490434216110" duration="15473000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44872000" />
+    <option name="totallyTimeSpent" value="44924000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="0" width="1002" height="1038" extended-state="0" />
@@ -1366,8 +1373,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/other/FileTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="949">
+          <caret line="43" column="16" lean-forward="false" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#517#1117#0" expanded="true" />
